@@ -30,8 +30,8 @@ Ezt követően felkínál 5 db, a keresett információt tartalmazó pontos rés
         left1, right1 = st.columns(2)
 
         with left1:
-            st.image(r"C:\ins\Vector_DB\user_manual\vizbekotes_tartalomjegyzek.png")
-            st.image(r"C:\ins\Vector_DB\user_manual\vizbekotes_kereses.png")
+            st.image(r"user_manual\vizbekotes_tartalomjegyzek.png")
+            st.image(r"user_manual\vizbekotes_kereses.png")
         with right1:       
             st.markdown(
                 """
@@ -64,7 +64,7 @@ Ezt követően felkínál 5 db, a keresett információt tartalmazó pontos rés
             st.markdown("""<div>
                             <br>
                         </div>""", unsafe_allow_html=True)
-            st.image(r"C:\ins\Vector_DB\user_manual\vizbekotes_dija_kereses.png")
+            st.image(r"\user_manual\vizbekotes_dija_kereses.png")
         with right2:       
             st.markdown(
                 """
@@ -88,8 +88,8 @@ Ezt követően felkínál 5 db, a keresett információt tartalmazó pontos rés
         left3, right3 = st.columns(2)
 
         with left3:
-            st.image(r"C:\ins\Vector_DB\user_manual\oltoviz_kereses_jelentes.png")
-            st.image(r"C:\ins\Vector_DB\user_manual\oltoviz_kereses_jelentes_valasz1.png")
+            st.image(r"user_manual\oltoviz_kereses_jelentes.png")
+            st.image(r"user_manual\oltoviz_kereses_jelentes_valasz1.png")
         with right3:       
             st.markdown(
                 """
@@ -133,8 +133,8 @@ Ezt követően felkínál 5 db, a keresett információt tartalmazó pontos rés
             st.markdown("""<div>
                             <br>
                         </div>""", unsafe_allow_html=True)
-            st.image(r"C:\ins\Vector_DB\user_manual\oltoviz_kereses_jelentes_feedback.png")
-            st.image(r"C:\ins\Vector_DB\user_manual\oltoviz_kereses_jelentes_feedback2.png")
+            st.image(r"user_manual\oltoviz_kereses_jelentes_feedback.png")
+            st.image(r"user_manual\oltoviz_kereses_jelentes_feedback2.png")
 
         with right4:
             st.markdown(
