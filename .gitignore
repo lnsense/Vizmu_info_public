@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Binary/DB artifacts
+*.bin
+data/archive/
+car_review_embeddings/
+config.txt
+*.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.cursor/
+
+trv_flask_app/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/trv-kereso-ca9479248a30.json
