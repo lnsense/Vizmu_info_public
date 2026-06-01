@@ -119,7 +119,6 @@ st.sidebar.markdown(
     .creator-link {
         color: inherit !important;
     }
-
     .creator-link:hover {
         text-decoration: underline;
     }
