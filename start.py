@@ -113,8 +113,8 @@ pages = {
 #     auth.logout()
 #     st.rerun()
 
-
-st.sidebar.caption("Készítette: Gaál Péter")
+link = st.page_link("https://epitodigital.hu", label="Gaál Péter")
+st.sidebar.caption(f"Készítette: {link}")
 
 
 
