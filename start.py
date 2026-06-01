@@ -113,8 +113,30 @@ pages = {
 #     auth.logout()
 #     st.rerun()
 
-link = st.page_link("https://epitodigital.hu", label="Gaál Péter")
-st.sidebar.caption(f"Készítette: {link}")
+st.sidebar.markdown(
+    """
+    <style>
+    .creator-link {
+        color: inherit !important;
+    }
+
+    .creator-link:hover {
+        text-decoration: underline;
+    }
+    </style>
+
+    <div style="
+        font-size: 0.875rem;
+        line-height: 1.5;
+    ">
+        Készítette:
+        <a class="creator-link" href="https://epitodigital.hu" target="_blank">
+            Gaál Péter
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
